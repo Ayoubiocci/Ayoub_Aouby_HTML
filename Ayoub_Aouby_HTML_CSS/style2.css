@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    height: 200vh; 
+    background-color: #f2d3ad; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d3a46a;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    align-items: center;
+}
+
+.titre-header{
+    margin-right: 50px;
+}
+
+.ancre{
+    display: inline-block;          
+    padding: 10px 50px;
+    border: 2px solid #333;             
+    background-color: #bb925e;      
+    color: white;                   
+    text-align: center;             
+    text-decoration: none;          
+    border-radius: 5px;             
+    font-size: 16px;                
+    font-weight: bold;
+    margin-right: 40px;  
+}
+
+.pack-classique{
+    margin-top: 130px;
+    width: 1400px;         
+    height: 30px;        
+    border: 3px solid #333;      
+    background-color: #eec591; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.photos-cartes-classique {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    gap: 100px;                  
+    padding: 20px;              
+}
+
+.photos-cartes-classique img {
+    width: 300px;            
+    height: auto;               
+    border: 1px solid #ccc;     
+    border-radius: 5px;         
+}
+
+.pack-onepiece{
+    margin-top: 30px;
+    width: 1400px;         
+    height: 30px;        
+    border: 3px solid #333;    
+    background-color: #eec591; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.photos-cartes-onepiece {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;         
+    gap: 100px;                  
+    padding: 20px;              
+}
+
+.photos-cartes-onepiece img {
+    width: 300px;            
+    height: auto;               
+    border: 1px solid #ccc;     
+    border-radius: 5px;         
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d3a46a;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    align-items: center;
+}
